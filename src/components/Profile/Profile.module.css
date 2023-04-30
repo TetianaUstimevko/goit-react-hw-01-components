@@ -1,5 +1,5 @@
-.profole {
-  background-color: #fff;
+.profile {
+  background-color: #f5f583;
   width: 300px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -33,7 +33,7 @@
   grid-template-columns: repeat(3, 1fr);
   height: 70px;
   border-top: 1px solid rgb(146, 146, 146);
-  background-color: #2b2a2a;
+  background-color: #324cdf;
   margin: 0;
   padding: 0;
 }
@@ -55,10 +55,12 @@ p {
 }
 
 .label {
-  color: #fff;
+  color: #0f0f0f;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .quantity {
-  color: rgb(235, 116, 116);
+  color: #0f0f0f;
+  font-weight: 900;
 }

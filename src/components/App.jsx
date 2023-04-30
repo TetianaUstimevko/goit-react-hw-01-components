@@ -3,6 +3,9 @@ import { Container } from './Container';
 import { Profile } from './Profile';
 import user from '../data/user';
 
+import { Statistics } from './Statistics';
+import data from '../data/data';
+
 export const App = () => {
   return (
     <Container>
@@ -13,6 +16,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics title="Upload stats" stats={data} />
     </Container>
   );
 };
